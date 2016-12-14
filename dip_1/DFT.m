@@ -1,7 +1,7 @@
 %Jianeng Xu   2014.10.18
 %傅里叶（反）变换的实现及其分析
 X=imread('x.jpg');
-X=rgb2gray(X); 
+X=rgb2gray(X);
 X=imresize(X,[256,256]);
 subplot(2,2,1);
 imshow(X);
